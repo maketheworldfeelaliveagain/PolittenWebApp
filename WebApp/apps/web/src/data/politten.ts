@@ -10,7 +10,7 @@ export const parties = [
  {id:'laisve-ir-teisingumas',name:'Laisvė ir teisingumas',short:'LT',monogram:'LT',color:'#7a3b9c'},
 ];
 export const statuses = [
- {label:'Įvykdyta',percent:100}, {label:'Iš dalies įvykdyta',percent:50}, {label:'Vykdoma',percent:25}, {label:'Neįvykdyta',percent:0}, {label:'Nepakanka duomenų',percent:0},
+ {key:'fulfilled',label:'Įvykdyta',percent:100}, {key:'partially-fulfilled',label:'Iš dalies įvykdyta',percent:50}, {key:'in-progress',label:'Vykdoma',percent:25}, {key:'not-fulfilled',label:'Neįvykdyta',percent:0}, {key:'no-data',label:'Nepakanka duomenų',percent:0},
 ];
 const examples: [string,string,string][] = [
  ['Socialinė politika','Plėsti dienos centrų paslaugas senjorams','Įsteigti po vieną papildomą senjorų dienos centrą dešimtyje savivaldybių ir užtikrinti nemokamą konsultavimą.'],
