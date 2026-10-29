@@ -59,7 +59,16 @@ const explanations = [
 ];
 export const promises = examples.map(([category,summary,text],i) => ({
  id:`p${String(i+1).padStart(2,'0')}`,partyId:parties[Math.floor(i/4)].id,category,summary,
- text,status:statuses[i%5],statusUpdatedAt:new Date(Date.UTC(2026,9,29-(i%30))).toISOString().slice(0,10),explanation:explanations[i%5],fictional:true,
+ text,status:statuses[i%5],statusUpdatedAt:new Date(Date.UTC(2026,9,29-(i%30))).toISOString().slice(0,10),
+ statusHistory:(() => {
+  const currentPercent=statuses[i%5].percent;
+  const checkpoints=[{percent:0,label:currentPercent===0?statuses[i%5].label:'Pradėta',daysBeforeUpdate:60}];
+  if(currentPercent>=25)checkpoints.push({percent:25,label:'Vykdoma',daysBeforeUpdate:40});
+  if(currentPercent>=50)checkpoints.push({percent:50,label:'Iš dalies įvykdyta',daysBeforeUpdate:20});
+  if(currentPercent>=100)checkpoints.push({percent:100,label:'Įvykdyta',daysBeforeUpdate:0});
+  return checkpoints.map(checkpoint=>({...checkpoint,reachedAt:new Date(Date.UTC(2026,9,29-(i%30)-checkpoint.daysBeforeUpdate)).toISOString().slice(0,10)}));
+ })(),
+ explanation:explanations[i%5],fictional:true,
  evidence:[
   {title:'Seimo kanceliarija: 2025 m. pavasario sesijos veiklos ataskaita',publishedAt:new Date(Date.UTC(2026,9,29-(i%30)-90)).toISOString().slice(0,10),url:'https://github.com/maketheworldfeelaliveagain'},
   {title:`Vyriausybės kanceliarija: pažado įgyvendinimo stebėsenos suvestinė (${statuses[i%5].label.toLowerCase()})`,publishedAt:new Date(Date.UTC(2026,9,29-(i%30))).toISOString().slice(0,10),url:'https://github.com/maketheworldfeelaliveagain'},
