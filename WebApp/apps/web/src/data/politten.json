@@ -1,0 +1,1626 @@
+{
+    "parties":  [
+                    {
+                        "id":  "lsdp",
+                        "name":  "Lietuvos socialdemokratų partija",
+                        "short":  "LSDP",
+                        "monogram":  "SD",
+                        "color":  "#c0392b"
+                    },
+                    {
+                        "id":  "ts-lkd",
+                        "name":  "Tėvynės sąjunga-Lietuvos krikščionys demokratai",
+                        "short":  "TS-LKD",
+                        "monogram":  "TS",
+                        "color":  "#1f6f8b"
+                    },
+                    {
+                        "id":  "nemuno-ausra",
+                        "name":  "„Nemuno aušra“",
+                        "short":  "NA",
+                        "monogram":  "NA",
+                        "color":  "#9c5000"
+                    },
+                    {
+                        "id":  "vardan-lietuvos",
+                        "name":  "Demokratų sąjunga „Vardan Lietuvos“",
+                        "short":  "VL",
+                        "monogram":  "VL",
+                        "color":  "#2f5fa8"
+                    },
+                    {
+                        "id":  "liberalu-sajudis",
+                        "name":  "Liberalų sąjūdis",
+                        "short":  "LS",
+                        "monogram":  "LS",
+                        "color":  "#ff9421"
+                    },
+                    {
+                        "id":  "lvzs",
+                        "name":  "Lietuvos valstiečių ir žaliųjų sąjunga",
+                        "short":  "LVŽS",
+                        "monogram":  "VŽ",
+                        "color":  "#4f7a3a"
+                    },
+                    {
+                        "id":  "llra-kss",
+                        "name":  "Lietuvos lenkų rinkimų akcija-Krikščioniškų šeimų sąjunga",
+                        "short":  "LLRA-KŠS",
+                        "monogram":  "LL",
+                        "color":  "#2e8b6f"
+                    },
+                    {
+                        "id":  "nacionalinis-susivienijimas",
+                        "name":  "Nacionalinis susivienijimas",
+                        "short":  "NS",
+                        "monogram":  "NS",
+                        "color":  "#6e0700"
+                    },
+                    {
+                        "id":  "laisve-ir-teisingumas",
+                        "name":  "Laisvė ir teisingumas",
+                        "short":  "LT",
+                        "monogram":  "LT",
+                        "color":  "#7a3b9c"
+                    }
+                ],
+    "statuses":  [
+                     {
+                         "key":  "fulfilled",
+                         "label":  "Įvykdyta",
+                         "percent":  100
+                     },
+                     {
+                         "key":  "partially-fulfilled",
+                         "label":  "Iš dalies įvykdyta",
+                         "percent":  50
+                     },
+                     {
+                         "key":  "in-progress",
+                         "label":  "Vykdoma",
+                         "percent":  25
+                     },
+                     {
+                         "key":  "not-fulfilled",
+                         "label":  "Neįvykdyta",
+                         "percent":  0
+                     },
+                     {
+                         "key":  "no-data",
+                         "label":  "Nepakanka duomenų",
+                         "percent":  0
+                     }
+                 ],
+    "promises":  [
+                     {
+                         "id":  "p01",
+                         "partyId":  "lsdp",
+                         "category":  "Socialinė politika",
+                         "summary":  "Plėsti dienos centrų paslaugas senjorams",
+                         "text":  "Įsteigti po vieną papildomą senjorų dienos centrą dešimtyje savivaldybių ir užtikrinti nemokamą konsultavimą.",
+                         "status":  {
+                                        "key":  "fulfilled",
+                                        "label":  "Įvykdyta",
+                                        "percent":  100
+                                    },
+                         "statusUpdatedAt":  "2026-10-29",
+                         "statusHistory":  [
+                                               {
+                                                   "percent":  0,
+                                                   "label":  "Pradėta",
+                                                   "daysBeforeUpdate":  60,
+                                                   "reachedAt":  "2026-08-30"
+                                               },
+                                               {
+                                                   "percent":  25,
+                                                   "label":  "Vykdoma",
+                                                   "daysBeforeUpdate":  40,
+                                                   "reachedAt":  "2026-09-19"
+                                               },
+                                               {
+                                                   "percent":  50,
+                                                   "label":  "Iš dalies įvykdyta",
+                                                   "daysBeforeUpdate":  20,
+                                                   "reachedAt":  "2026-10-09"
+                                               },
+                                               {
+                                                   "percent":  100,
+                                                   "label":  "Įvykdyta",
+                                                   "daysBeforeUpdate":  0,
+                                                   "reachedAt":  "2026-10-29"
+                                               }
+                                           ],
+                         "explanation":  "Visos numatytos priemonės baigtos. Vertinimas apima pažado apimtį, o ne jo politinę naudą.",
+                         "fictional":  true,
+                         "evidence":  [
+                                          {
+                                              "title":  "Seimo kanceliarija: 2025 m. pavasario sesijos veiklos ataskaita",
+                                              "publishedAt":  "2026-07-31",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          },
+                                          {
+                                              "title":  "Vyriausybės kanceliarija: pažado įgyvendinimo stebėsenos suvestinė (įvykdyta)",
+                                              "publishedAt":  "2026-10-29",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          }
+                                      ]
+                     },
+                     {
+                         "id":  "p02",
+                         "partyId":  "lsdp",
+                         "category":  "Sveikatos apsauga",
+                         "summary":  "Trumpinti laukimą šeimos gydytojo konsultacijai",
+                         "text":  "Penkiose bandomosiose poliklinikose įdiegti bendrą registracijos sistemą ir papildomas vakarines konsultacijas.",
+                         "status":  {
+                                        "key":  "partially-fulfilled",
+                                        "label":  "Iš dalies įvykdyta",
+                                        "percent":  50
+                                    },
+                         "statusUpdatedAt":  "2026-10-28",
+                         "statusHistory":  [
+                                               {
+                                                   "percent":  0,
+                                                   "label":  "Pradėta",
+                                                   "daysBeforeUpdate":  60,
+                                                   "reachedAt":  "2026-08-29"
+                                               },
+                                               {
+                                                   "percent":  25,
+                                                   "label":  "Vykdoma",
+                                                   "daysBeforeUpdate":  40,
+                                                   "reachedAt":  "2026-09-18"
+                                               },
+                                               {
+                                                   "percent":  50,
+                                                   "label":  "Iš dalies įvykdyta",
+                                                   "daysBeforeUpdate":  20,
+                                                   "reachedAt":  "2026-10-08"
+                                               }
+                                           ],
+                         "explanation":  "Įgyvendinta pusė numatytos apimties. Likusi dalis dar nebaigta, todėl pažanga vertinama 50 %.",
+                         "fictional":  true,
+                         "evidence":  [
+                                          {
+                                              "title":  "Seimo kanceliarija: 2025 m. pavasario sesijos veiklos ataskaita",
+                                              "publishedAt":  "2026-07-30",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          },
+                                          {
+                                              "title":  "Vyriausybės kanceliarija: pažado įgyvendinimo stebėsenos suvestinė (iš dalies įvykdyta)",
+                                              "publishedAt":  "2026-10-28",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          }
+                                      ]
+                     },
+                     {
+                         "id":  "p03",
+                         "partyId":  "lsdp",
+                         "category":  "Švietimas",
+                         "summary":  "Suteikti mokykloms daugiau pagalbos specialistų",
+                         "text":  "Dvidešimtyje mokyklų finansuoti papildomą specialiojo pedagogo ir psichologo etatą.",
+                         "status":  {
+                                        "key":  "in-progress",
+                                        "label":  "Vykdoma",
+                                        "percent":  25
+                                    },
+                         "statusUpdatedAt":  "2026-10-27",
+                         "statusHistory":  [
+                                               {
+                                                   "percent":  0,
+                                                   "label":  "Pradėta",
+                                                   "daysBeforeUpdate":  60,
+                                                   "reachedAt":  "2026-08-28"
+                                               },
+                                               {
+                                                   "percent":  25,
+                                                   "label":  "Vykdoma",
+                                                   "daysBeforeUpdate":  40,
+                                                   "reachedAt":  "2026-09-17"
+                                               }
+                                           ],
+                         "explanation":  "Patvirtintas veiksmų planas ir pradėtas bandomasis etapas. Pažanga vertinama 25 %.",
+                         "fictional":  true,
+                         "evidence":  [
+                                          {
+                                              "title":  "Seimo kanceliarija: 2025 m. pavasario sesijos veiklos ataskaita",
+                                              "publishedAt":  "2026-07-29",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          },
+                                          {
+                                              "title":  "Vyriausybės kanceliarija: pažado įgyvendinimo stebėsenos suvestinė (vykdoma)",
+                                              "publishedAt":  "2026-10-27",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          }
+                                      ]
+                     },
+                     {
+                         "id":  "p04",
+                         "partyId":  "lsdp",
+                         "category":  "Transportas",
+                         "summary":  "Atnaujinti regioninių autobusų stoteles",
+                         "text":  "Atnaujinti trisdešimt regioninių stotelių, įrengiant pastoges ir aiškius tvarkaraščius.",
+                         "status":  {
+                                        "key":  "not-fulfilled",
+                                        "label":  "Neįvykdyta",
+                                        "percent":  0
+                                    },
+                         "statusUpdatedAt":  "2026-10-26",
+                         "statusHistory":  [
+                                               {
+                                                   "percent":  0,
+                                                   "label":  "Neįvykdyta",
+                                                   "daysBeforeUpdate":  60,
+                                                   "reachedAt":  "2026-08-27"
+                                               }
+                                           ],
+                         "explanation":  "Numatytas laikotarpis baigėsi, tačiau priemonė nepradėta. Pažadas vertinamas kaip neįvykdytas.",
+                         "fictional":  true,
+                         "evidence":  [
+                                          {
+                                              "title":  "Seimo kanceliarija: 2025 m. pavasario sesijos veiklos ataskaita",
+                                              "publishedAt":  "2026-07-28",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          },
+                                          {
+                                              "title":  "Vyriausybės kanceliarija: pažado įgyvendinimo stebėsenos suvestinė (neįvykdyta)",
+                                              "publishedAt":  "2026-10-26",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          }
+                                      ]
+                     },
+                     {
+                         "id":  "p05",
+                         "partyId":  "ts-lkd",
+                         "category":  "Krašto apsauga",
+                         "summary":  "Atverti civilinės saugos mokymus gyventojams",
+                         "text":  "Surengti nemokamus civilinės saugos mokymus dvylikoje savivaldybių ir parengti prieinamą mokymosi medžiagą.",
+                         "status":  {
+                                        "key":  "no-data",
+                                        "label":  "Nepakanka duomenų",
+                                        "percent":  0
+                                    },
+                         "statusUpdatedAt":  "2026-10-25",
+                         "statusHistory":  [
+                                               {
+                                                   "percent":  0,
+                                                   "label":  "Nepakanka duomenų",
+                                                   "daysBeforeUpdate":  60,
+                                                   "reachedAt":  "2026-08-26"
+                                               }
+                                           ],
+                         "explanation":  "Turimų duomenų nepakanka išvadai. 0 % žymi nežinomybę ir nėra pažado neįvykdymo įrodymas.",
+                         "fictional":  true,
+                         "evidence":  [
+                                          {
+                                              "title":  "Seimo kanceliarija: 2025 m. pavasario sesijos veiklos ataskaita",
+                                              "publishedAt":  "2026-07-27",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          },
+                                          {
+                                              "title":  "Vyriausybės kanceliarija: pažado įgyvendinimo stebėsenos suvestinė (nepakanka duomenų)",
+                                              "publishedAt":  "2026-10-25",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          }
+                                      ]
+                     },
+                     {
+                         "id":  "p06",
+                         "partyId":  "ts-lkd",
+                         "category":  "Energetika",
+                         "summary":  "Gerinti viešųjų pastatų energinį efektyvumą",
+                         "text":  "Apšiltinti dešimt viešųjų bibliotekų ir įrengti jų energijos sąnaudų stebėseną.",
+                         "status":  {
+                                        "key":  "fulfilled",
+                                        "label":  "Įvykdyta",
+                                        "percent":  100
+                                    },
+                         "statusUpdatedAt":  "2026-10-24",
+                         "statusHistory":  [
+                                               {
+                                                   "percent":  0,
+                                                   "label":  "Pradėta",
+                                                   "daysBeforeUpdate":  60,
+                                                   "reachedAt":  "2026-08-25"
+                                               },
+                                               {
+                                                   "percent":  25,
+                                                   "label":  "Vykdoma",
+                                                   "daysBeforeUpdate":  40,
+                                                   "reachedAt":  "2026-09-14"
+                                               },
+                                               {
+                                                   "percent":  50,
+                                                   "label":  "Iš dalies įvykdyta",
+                                                   "daysBeforeUpdate":  20,
+                                                   "reachedAt":  "2026-10-04"
+                                               },
+                                               {
+                                                   "percent":  100,
+                                                   "label":  "Įvykdyta",
+                                                   "daysBeforeUpdate":  0,
+                                                   "reachedAt":  "2026-10-24"
+                                               }
+                                           ],
+                         "explanation":  "Visos numatytos priemonės baigtos. Vertinimas apima pažado apimtį, o ne jo politinę naudą.",
+                         "fictional":  true,
+                         "evidence":  [
+                                          {
+                                              "title":  "Seimo kanceliarija: 2025 m. pavasario sesijos veiklos ataskaita",
+                                              "publishedAt":  "2026-07-26",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          },
+                                          {
+                                              "title":  "Vyriausybės kanceliarija: pažado įgyvendinimo stebėsenos suvestinė (įvykdyta)",
+                                              "publishedAt":  "2026-10-24",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          }
+                                      ]
+                     },
+                     {
+                         "id":  "p07",
+                         "partyId":  "ts-lkd",
+                         "category":  "Skaitmenizacija",
+                         "summary":  "Sujungti savivaldybių paslaugas viename portale",
+                         "text":  "Sukurti bendrą bandomąjį portalą penkių savivaldybių pažymoms ir prašymams teikti.",
+                         "status":  {
+                                        "key":  "partially-fulfilled",
+                                        "label":  "Iš dalies įvykdyta",
+                                        "percent":  50
+                                    },
+                         "statusUpdatedAt":  "2026-10-23",
+                         "statusHistory":  [
+                                               {
+                                                   "percent":  0,
+                                                   "label":  "Pradėta",
+                                                   "daysBeforeUpdate":  60,
+                                                   "reachedAt":  "2026-08-24"
+                                               },
+                                               {
+                                                   "percent":  25,
+                                                   "label":  "Vykdoma",
+                                                   "daysBeforeUpdate":  40,
+                                                   "reachedAt":  "2026-09-13"
+                                               },
+                                               {
+                                                   "percent":  50,
+                                                   "label":  "Iš dalies įvykdyta",
+                                                   "daysBeforeUpdate":  20,
+                                                   "reachedAt":  "2026-10-03"
+                                               }
+                                           ],
+                         "explanation":  "Įgyvendinta pusė numatytos apimties. Likusi dalis dar nebaigta, todėl pažanga vertinama 50 %.",
+                         "fictional":  true,
+                         "evidence":  [
+                                          {
+                                              "title":  "Seimo kanceliarija: 2025 m. pavasario sesijos veiklos ataskaita",
+                                              "publishedAt":  "2026-07-25",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          },
+                                          {
+                                              "title":  "Vyriausybės kanceliarija: pažado įgyvendinimo stebėsenos suvestinė (iš dalies įvykdyta)",
+                                              "publishedAt":  "2026-10-23",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          }
+                                      ]
+                     },
+                     {
+                         "id":  "p08",
+                         "partyId":  "ts-lkd",
+                         "category":  "Ekonomika",
+                         "summary":  "Padėti mažoms įmonėms eksportuoti",
+                         "text":  "Įsteigti konsultacijų programą penkiasdešimčiai mažų įmonių, rengiančių pirmąjį eksporto planą.",
+                         "status":  {
+                                        "key":  "in-progress",
+                                        "label":  "Vykdoma",
+                                        "percent":  25
+                                    },
+                         "statusUpdatedAt":  "2026-10-22",
+                         "statusHistory":  [
+                                               {
+                                                   "percent":  0,
+                                                   "label":  "Pradėta",
+                                                   "daysBeforeUpdate":  60,
+                                                   "reachedAt":  "2026-08-23"
+                                               },
+                                               {
+                                                   "percent":  25,
+                                                   "label":  "Vykdoma",
+                                                   "daysBeforeUpdate":  40,
+                                                   "reachedAt":  "2026-09-12"
+                                               }
+                                           ],
+                         "explanation":  "Patvirtintas veiksmų planas ir pradėtas bandomasis etapas. Pažanga vertinama 25 %.",
+                         "fictional":  true,
+                         "evidence":  [
+                                          {
+                                              "title":  "Seimo kanceliarija: 2025 m. pavasario sesijos veiklos ataskaita",
+                                              "publishedAt":  "2026-07-24",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          },
+                                          {
+                                              "title":  "Vyriausybės kanceliarija: pažado įgyvendinimo stebėsenos suvestinė (vykdoma)",
+                                              "publishedAt":  "2026-10-22",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          }
+                                      ]
+                     },
+                     {
+                         "id":  "p09",
+                         "partyId":  "nemuno-ausra",
+                         "category":  "Regionai",
+                         "summary":  "Išlaikyti mobiliąsias bibliotekas kaimuose",
+                         "text":  "Finansuoti keturis mobiliųjų bibliotekų maršrutus vietovėse, kuriose nėra nuolatinės bibliotekos.",
+                         "status":  {
+                                        "key":  "not-fulfilled",
+                                        "label":  "Neįvykdyta",
+                                        "percent":  0
+                                    },
+                         "statusUpdatedAt":  "2026-10-21",
+                         "statusHistory":  [
+                                               {
+                                                   "percent":  0,
+                                                   "label":  "Neįvykdyta",
+                                                   "daysBeforeUpdate":  60,
+                                                   "reachedAt":  "2026-08-22"
+                                               }
+                                           ],
+                         "explanation":  "Numatytas laikotarpis baigėsi, tačiau priemonė nepradėta. Pažadas vertinamas kaip neįvykdytas.",
+                         "fictional":  true,
+                         "evidence":  [
+                                          {
+                                              "title":  "Seimo kanceliarija: 2025 m. pavasario sesijos veiklos ataskaita",
+                                              "publishedAt":  "2026-07-23",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          },
+                                          {
+                                              "title":  "Vyriausybės kanceliarija: pažado įgyvendinimo stebėsenos suvestinė (neįvykdyta)",
+                                              "publishedAt":  "2026-10-21",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          }
+                                      ]
+                     },
+                     {
+                         "id":  "p10",
+                         "partyId":  "nemuno-ausra",
+                         "category":  "Viešasis valdymas",
+                         "summary":  "Viešinti savivaldybių projektų eigą",
+                         "text":  "Įdiegti viešą projektų eigą ir išlaidas rodančią lentelę šešiose bandomosiose savivaldybėse.",
+                         "status":  {
+                                        "key":  "no-data",
+                                        "label":  "Nepakanka duomenų",
+                                        "percent":  0
+                                    },
+                         "statusUpdatedAt":  "2026-10-20",
+                         "statusHistory":  [
+                                               {
+                                                   "percent":  0,
+                                                   "label":  "Nepakanka duomenų",
+                                                   "daysBeforeUpdate":  60,
+                                                   "reachedAt":  "2026-08-21"
+                                               }
+                                           ],
+                         "explanation":  "Turimų duomenų nepakanka išvadai. 0 % žymi nežinomybę ir nėra pažado neįvykdymo įrodymas.",
+                         "fictional":  true,
+                         "evidence":  [
+                                          {
+                                              "title":  "Seimo kanceliarija: 2025 m. pavasario sesijos veiklos ataskaita",
+                                              "publishedAt":  "2026-07-22",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          },
+                                          {
+                                              "title":  "Vyriausybės kanceliarija: pažado įgyvendinimo stebėsenos suvestinė (nepakanka duomenų)",
+                                              "publishedAt":  "2026-10-20",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          }
+                                      ]
+                     },
+                     {
+                         "id":  "p11",
+                         "partyId":  "nemuno-ausra",
+                         "category":  "Transportas",
+                         "summary":  "Kurti saugesnes perėjas prie mokyklų",
+                         "text":  "Dvidešimtyje perėjų prie mokyklų atnaujinti apšvietimą ir įrengti greičio mažinimo priemones.",
+                         "status":  {
+                                        "key":  "fulfilled",
+                                        "label":  "Įvykdyta",
+                                        "percent":  100
+                                    },
+                         "statusUpdatedAt":  "2026-10-19",
+                         "statusHistory":  [
+                                               {
+                                                   "percent":  0,
+                                                   "label":  "Pradėta",
+                                                   "daysBeforeUpdate":  60,
+                                                   "reachedAt":  "2026-08-20"
+                                               },
+                                               {
+                                                   "percent":  25,
+                                                   "label":  "Vykdoma",
+                                                   "daysBeforeUpdate":  40,
+                                                   "reachedAt":  "2026-09-09"
+                                               },
+                                               {
+                                                   "percent":  50,
+                                                   "label":  "Iš dalies įvykdyta",
+                                                   "daysBeforeUpdate":  20,
+                                                   "reachedAt":  "2026-09-29"
+                                               },
+                                               {
+                                                   "percent":  100,
+                                                   "label":  "Įvykdyta",
+                                                   "daysBeforeUpdate":  0,
+                                                   "reachedAt":  "2026-10-19"
+                                               }
+                                           ],
+                         "explanation":  "Visos numatytos priemonės baigtos. Vertinimas apima pažado apimtį, o ne jo politinę naudą.",
+                         "fictional":  true,
+                         "evidence":  [
+                                          {
+                                              "title":  "Seimo kanceliarija: 2025 m. pavasario sesijos veiklos ataskaita",
+                                              "publishedAt":  "2026-07-21",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          },
+                                          {
+                                              "title":  "Vyriausybės kanceliarija: pažado įgyvendinimo stebėsenos suvestinė (įvykdyta)",
+                                              "publishedAt":  "2026-10-19",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          }
+                                      ]
+                     },
+                     {
+                         "id":  "p12",
+                         "partyId":  "nemuno-ausra",
+                         "category":  "Sveikatos apsauga",
+                         "summary":  "Plėsti mobiliųjų sveikatos komandų darbą",
+                         "text":  "Suburti tris mobiliąsias komandas profilaktiniams patikrinimams atokesnėse gyvenvietėse.",
+                         "status":  {
+                                        "key":  "partially-fulfilled",
+                                        "label":  "Iš dalies įvykdyta",
+                                        "percent":  50
+                                    },
+                         "statusUpdatedAt":  "2026-10-18",
+                         "statusHistory":  [
+                                               {
+                                                   "percent":  0,
+                                                   "label":  "Pradėta",
+                                                   "daysBeforeUpdate":  60,
+                                                   "reachedAt":  "2026-08-19"
+                                               },
+                                               {
+                                                   "percent":  25,
+                                                   "label":  "Vykdoma",
+                                                   "daysBeforeUpdate":  40,
+                                                   "reachedAt":  "2026-09-08"
+                                               },
+                                               {
+                                                   "percent":  50,
+                                                   "label":  "Iš dalies įvykdyta",
+                                                   "daysBeforeUpdate":  20,
+                                                   "reachedAt":  "2026-09-28"
+                                               }
+                                           ],
+                         "explanation":  "Įgyvendinta pusė numatytos apimties. Likusi dalis dar nebaigta, todėl pažanga vertinama 50 %.",
+                         "fictional":  true,
+                         "evidence":  [
+                                          {
+                                              "title":  "Seimo kanceliarija: 2025 m. pavasario sesijos veiklos ataskaita",
+                                              "publishedAt":  "2026-07-20",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          },
+                                          {
+                                              "title":  "Vyriausybės kanceliarija: pažado įgyvendinimo stebėsenos suvestinė (iš dalies įvykdyta)",
+                                              "publishedAt":  "2026-10-18",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          }
+                                      ]
+                     },
+                     {
+                         "id":  "p13",
+                         "partyId":  "vardan-lietuvos",
+                         "category":  "Aplinkosauga",
+                         "summary":  "Atkurti miestų žaliąsias erdves",
+                         "text":  "Atkurti penkis apleistus miesto parkus, sodinant vietinių rūšių medžius ir įrengiant lietaus sodus.",
+                         "status":  {
+                                        "key":  "in-progress",
+                                        "label":  "Vykdoma",
+                                        "percent":  25
+                                    },
+                         "statusUpdatedAt":  "2026-10-17",
+                         "statusHistory":  [
+                                               {
+                                                   "percent":  0,
+                                                   "label":  "Pradėta",
+                                                   "daysBeforeUpdate":  60,
+                                                   "reachedAt":  "2026-08-18"
+                                               },
+                                               {
+                                                   "percent":  25,
+                                                   "label":  "Vykdoma",
+                                                   "daysBeforeUpdate":  40,
+                                                   "reachedAt":  "2026-09-07"
+                                               }
+                                           ],
+                         "explanation":  "Patvirtintas veiksmų planas ir pradėtas bandomasis etapas. Pažanga vertinama 25 %.",
+                         "fictional":  true,
+                         "evidence":  [
+                                          {
+                                              "title":  "Seimo kanceliarija: 2025 m. pavasario sesijos veiklos ataskaita",
+                                              "publishedAt":  "2026-07-19",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          },
+                                          {
+                                              "title":  "Vyriausybės kanceliarija: pažado įgyvendinimo stebėsenos suvestinė (vykdoma)",
+                                              "publishedAt":  "2026-10-17",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          }
+                                      ]
+                     },
+                     {
+                         "id":  "p14",
+                         "partyId":  "vardan-lietuvos",
+                         "category":  "Socialinė politika",
+                         "summary":  "Gerinti pagalbą artimuosius slaugantiems žmonėms",
+                         "text":  "Pasiūlyti laikino atokvėpio paslaugas šimtui šeimų trijose bandomosiose savivaldybėse.",
+                         "status":  {
+                                        "key":  "not-fulfilled",
+                                        "label":  "Neįvykdyta",
+                                        "percent":  0
+                                    },
+                         "statusUpdatedAt":  "2026-10-16",
+                         "statusHistory":  [
+                                               {
+                                                   "percent":  0,
+                                                   "label":  "Neįvykdyta",
+                                                   "daysBeforeUpdate":  60,
+                                                   "reachedAt":  "2026-08-17"
+                                               }
+                                           ],
+                         "explanation":  "Numatytas laikotarpis baigėsi, tačiau priemonė nepradėta. Pažadas vertinamas kaip neįvykdytas.",
+                         "fictional":  true,
+                         "evidence":  [
+                                          {
+                                              "title":  "Seimo kanceliarija: 2025 m. pavasario sesijos veiklos ataskaita",
+                                              "publishedAt":  "2026-07-18",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          },
+                                          {
+                                              "title":  "Vyriausybės kanceliarija: pažado įgyvendinimo stebėsenos suvestinė (neįvykdyta)",
+                                              "publishedAt":  "2026-10-16",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          }
+                                      ]
+                     },
+                     {
+                         "id":  "p15",
+                         "partyId":  "vardan-lietuvos",
+                         "category":  "Energetika",
+                         "summary":  "Remti bendruomenių saulės elektrines",
+                         "text":  "Parengti paramos konkursą penkioms bendruomenėms, norinčioms įsirengti bendrą saulės elektrinę.",
+                         "status":  {
+                                        "key":  "no-data",
+                                        "label":  "Nepakanka duomenų",
+                                        "percent":  0
+                                    },
+                         "statusUpdatedAt":  "2026-10-15",
+                         "statusHistory":  [
+                                               {
+                                                   "percent":  0,
+                                                   "label":  "Nepakanka duomenų",
+                                                   "daysBeforeUpdate":  60,
+                                                   "reachedAt":  "2026-08-16"
+                                               }
+                                           ],
+                         "explanation":  "Turimų duomenų nepakanka išvadai. 0 % žymi nežinomybę ir nėra pažado neįvykdymo įrodymas.",
+                         "fictional":  true,
+                         "evidence":  [
+                                          {
+                                              "title":  "Seimo kanceliarija: 2025 m. pavasario sesijos veiklos ataskaita",
+                                              "publishedAt":  "2026-07-17",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          },
+                                          {
+                                              "title":  "Vyriausybės kanceliarija: pažado įgyvendinimo stebėsenos suvestinė (nepakanka duomenų)",
+                                              "publishedAt":  "2026-10-15",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          }
+                                      ]
+                     },
+                     {
+                         "id":  "p16",
+                         "partyId":  "vardan-lietuvos",
+                         "category":  "Švietimas",
+                         "summary":  "Atverti mokyklų laboratorijas po pamokų",
+                         "text":  "Dešimtyje mokyklų pradėti nemokamus popamokinius gamtos mokslų užsiėmimus.",
+                         "status":  {
+                                        "key":  "fulfilled",
+                                        "label":  "Įvykdyta",
+                                        "percent":  100
+                                    },
+                         "statusUpdatedAt":  "2026-10-14",
+                         "statusHistory":  [
+                                               {
+                                                   "percent":  0,
+                                                   "label":  "Pradėta",
+                                                   "daysBeforeUpdate":  60,
+                                                   "reachedAt":  "2026-08-15"
+                                               },
+                                               {
+                                                   "percent":  25,
+                                                   "label":  "Vykdoma",
+                                                   "daysBeforeUpdate":  40,
+                                                   "reachedAt":  "2026-09-04"
+                                               },
+                                               {
+                                                   "percent":  50,
+                                                   "label":  "Iš dalies įvykdyta",
+                                                   "daysBeforeUpdate":  20,
+                                                   "reachedAt":  "2026-09-24"
+                                               },
+                                               {
+                                                   "percent":  100,
+                                                   "label":  "Įvykdyta",
+                                                   "daysBeforeUpdate":  0,
+                                                   "reachedAt":  "2026-10-14"
+                                               }
+                                           ],
+                         "explanation":  "Visos numatytos priemonės baigtos. Vertinimas apima pažado apimtį, o ne jo politinę naudą.",
+                         "fictional":  true,
+                         "evidence":  [
+                                          {
+                                              "title":  "Seimo kanceliarija: 2025 m. pavasario sesijos veiklos ataskaita",
+                                              "publishedAt":  "2026-07-16",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          },
+                                          {
+                                              "title":  "Vyriausybės kanceliarija: pažado įgyvendinimo stebėsenos suvestinė (įvykdyta)",
+                                              "publishedAt":  "2026-10-14",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          }
+                                      ]
+                     },
+                     {
+                         "id":  "p17",
+                         "partyId":  "liberalu-sajudis",
+                         "category":  "Ekonomika",
+                         "summary":  "Supaprastinti leidimus smulkiajam verslui",
+                         "text":  "Sukurti vieną prašymo formą trims dažniausiai smulkiojo verslo naudojamiems savivaldybės leidimams.",
+                         "status":  {
+                                        "key":  "partially-fulfilled",
+                                        "label":  "Iš dalies įvykdyta",
+                                        "percent":  50
+                                    },
+                         "statusUpdatedAt":  "2026-10-13",
+                         "statusHistory":  [
+                                               {
+                                                   "percent":  0,
+                                                   "label":  "Pradėta",
+                                                   "daysBeforeUpdate":  60,
+                                                   "reachedAt":  "2026-08-14"
+                                               },
+                                               {
+                                                   "percent":  25,
+                                                   "label":  "Vykdoma",
+                                                   "daysBeforeUpdate":  40,
+                                                   "reachedAt":  "2026-09-03"
+                                               },
+                                               {
+                                                   "percent":  50,
+                                                   "label":  "Iš dalies įvykdyta",
+                                                   "daysBeforeUpdate":  20,
+                                                   "reachedAt":  "2026-09-23"
+                                               }
+                                           ],
+                         "explanation":  "Įgyvendinta pusė numatytos apimties. Likusi dalis dar nebaigta, todėl pažanga vertinama 50 %.",
+                         "fictional":  true,
+                         "evidence":  [
+                                          {
+                                              "title":  "Seimo kanceliarija: 2025 m. pavasario sesijos veiklos ataskaita",
+                                              "publishedAt":  "2026-07-15",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          },
+                                          {
+                                              "title":  "Vyriausybės kanceliarija: pažado įgyvendinimo stebėsenos suvestinė (iš dalies įvykdyta)",
+                                              "publishedAt":  "2026-10-13",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          }
+                                      ]
+                     },
+                     {
+                         "id":  "p18",
+                         "partyId":  "liberalu-sajudis",
+                         "category":  "Žmogaus teisės",
+                         "summary":  "Padaryti viešąsias paslaugas prieinamesnes",
+                         "text":  "Pritaikyti aštuonių viešųjų įstaigų informacijos teikimą žmonėms su regos ir klausos negalia.",
+                         "status":  {
+                                        "key":  "in-progress",
+                                        "label":  "Vykdoma",
+                                        "percent":  25
+                                    },
+                         "statusUpdatedAt":  "2026-10-12",
+                         "statusHistory":  [
+                                               {
+                                                   "percent":  0,
+                                                   "label":  "Pradėta",
+                                                   "daysBeforeUpdate":  60,
+                                                   "reachedAt":  "2026-08-13"
+                                               },
+                                               {
+                                                   "percent":  25,
+                                                   "label":  "Vykdoma",
+                                                   "daysBeforeUpdate":  40,
+                                                   "reachedAt":  "2026-09-02"
+                                               }
+                                           ],
+                         "explanation":  "Patvirtintas veiksmų planas ir pradėtas bandomasis etapas. Pažanga vertinama 25 %.",
+                         "fictional":  true,
+                         "evidence":  [
+                                          {
+                                              "title":  "Seimo kanceliarija: 2025 m. pavasario sesijos veiklos ataskaita",
+                                              "publishedAt":  "2026-07-14",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          },
+                                          {
+                                              "title":  "Vyriausybės kanceliarija: pažado įgyvendinimo stebėsenos suvestinė (vykdoma)",
+                                              "publishedAt":  "2026-10-12",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          }
+                                      ]
+                     },
+                     {
+                         "id":  "p19",
+                         "partyId":  "liberalu-sajudis",
+                         "category":  "Skaitmenizacija",
+                         "summary":  "Mokyti gyventojus saugiai naudotis internetu",
+                         "text":  "Surengti keturiasdešimt nemokamų skaitmeninio saugumo užsiėmimų bibliotekose.",
+                         "status":  {
+                                        "key":  "not-fulfilled",
+                                        "label":  "Neįvykdyta",
+                                        "percent":  0
+                                    },
+                         "statusUpdatedAt":  "2026-10-11",
+                         "statusHistory":  [
+                                               {
+                                                   "percent":  0,
+                                                   "label":  "Neįvykdyta",
+                                                   "daysBeforeUpdate":  60,
+                                                   "reachedAt":  "2026-08-12"
+                                               }
+                                           ],
+                         "explanation":  "Numatytas laikotarpis baigėsi, tačiau priemonė nepradėta. Pažadas vertinamas kaip neįvykdytas.",
+                         "fictional":  true,
+                         "evidence":  [
+                                          {
+                                              "title":  "Seimo kanceliarija: 2025 m. pavasario sesijos veiklos ataskaita",
+                                              "publishedAt":  "2026-07-13",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          },
+                                          {
+                                              "title":  "Vyriausybės kanceliarija: pažado įgyvendinimo stebėsenos suvestinė (neįvykdyta)",
+                                              "publishedAt":  "2026-10-11",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          }
+                                      ]
+                     },
+                     {
+                         "id":  "p20",
+                         "partyId":  "liberalu-sajudis",
+                         "category":  "Viešasis valdymas",
+                         "summary":  "Išbandyti dalyvaujamąjį biudžetą",
+                         "text":  "Trijose savivaldybėse skirti atskirą biudžeto dalį gyventojų siūlomiems ir renkamiems projektams.",
+                         "status":  {
+                                        "key":  "no-data",
+                                        "label":  "Nepakanka duomenų",
+                                        "percent":  0
+                                    },
+                         "statusUpdatedAt":  "2026-10-10",
+                         "statusHistory":  [
+                                               {
+                                                   "percent":  0,
+                                                   "label":  "Nepakanka duomenų",
+                                                   "daysBeforeUpdate":  60,
+                                                   "reachedAt":  "2026-08-11"
+                                               }
+                                           ],
+                         "explanation":  "Turimų duomenų nepakanka išvadai. 0 % žymi nežinomybę ir nėra pažado neįvykdymo įrodymas.",
+                         "fictional":  true,
+                         "evidence":  [
+                                          {
+                                              "title":  "Seimo kanceliarija: 2025 m. pavasario sesijos veiklos ataskaita",
+                                              "publishedAt":  "2026-07-12",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          },
+                                          {
+                                              "title":  "Vyriausybės kanceliarija: pažado įgyvendinimo stebėsenos suvestinė (nepakanka duomenų)",
+                                              "publishedAt":  "2026-10-10",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          }
+                                      ]
+                     },
+                     {
+                         "id":  "p21",
+                         "partyId":  "lvzs",
+                         "category":  "Žemės ūkis",
+                         "summary":  "Padėti ūkiams saugoti dirvožemį",
+                         "text":  "Penkiasdešimtyje ūkių finansuoti dirvožemio tyrimus ir individualius tvaraus ūkininkavimo planus.",
+                         "status":  {
+                                        "key":  "fulfilled",
+                                        "label":  "Įvykdyta",
+                                        "percent":  100
+                                    },
+                         "statusUpdatedAt":  "2026-10-09",
+                         "statusHistory":  [
+                                               {
+                                                   "percent":  0,
+                                                   "label":  "Pradėta",
+                                                   "daysBeforeUpdate":  60,
+                                                   "reachedAt":  "2026-08-10"
+                                               },
+                                               {
+                                                   "percent":  25,
+                                                   "label":  "Vykdoma",
+                                                   "daysBeforeUpdate":  40,
+                                                   "reachedAt":  "2026-08-30"
+                                               },
+                                               {
+                                                   "percent":  50,
+                                                   "label":  "Iš dalies įvykdyta",
+                                                   "daysBeforeUpdate":  20,
+                                                   "reachedAt":  "2026-09-19"
+                                               },
+                                               {
+                                                   "percent":  100,
+                                                   "label":  "Įvykdyta",
+                                                   "daysBeforeUpdate":  0,
+                                                   "reachedAt":  "2026-10-09"
+                                               }
+                                           ],
+                         "explanation":  "Visos numatytos priemonės baigtos. Vertinimas apima pažado apimtį, o ne jo politinę naudą.",
+                         "fictional":  true,
+                         "evidence":  [
+                                          {
+                                              "title":  "Seimo kanceliarija: 2025 m. pavasario sesijos veiklos ataskaita",
+                                              "publishedAt":  "2026-07-11",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          },
+                                          {
+                                              "title":  "Vyriausybės kanceliarija: pažado įgyvendinimo stebėsenos suvestinė (įvykdyta)",
+                                              "publishedAt":  "2026-10-09",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          }
+                                      ]
+                     },
+                     {
+                         "id":  "p22",
+                         "partyId":  "lvzs",
+                         "category":  "Aplinkosauga",
+                         "summary":  "Įrengti vandens kokybės stebėsenos taškus",
+                         "text":  "Įrengti dvylika naujų vandens kokybės stebėsenos taškų prie mažųjų upių.",
+                         "status":  {
+                                        "key":  "partially-fulfilled",
+                                        "label":  "Iš dalies įvykdyta",
+                                        "percent":  50
+                                    },
+                         "statusUpdatedAt":  "2026-10-08",
+                         "statusHistory":  [
+                                               {
+                                                   "percent":  0,
+                                                   "label":  "Pradėta",
+                                                   "daysBeforeUpdate":  60,
+                                                   "reachedAt":  "2026-08-09"
+                                               },
+                                               {
+                                                   "percent":  25,
+                                                   "label":  "Vykdoma",
+                                                   "daysBeforeUpdate":  40,
+                                                   "reachedAt":  "2026-08-29"
+                                               },
+                                               {
+                                                   "percent":  50,
+                                                   "label":  "Iš dalies įvykdyta",
+                                                   "daysBeforeUpdate":  20,
+                                                   "reachedAt":  "2026-09-18"
+                                               }
+                                           ],
+                         "explanation":  "Įgyvendinta pusė numatytos apimties. Likusi dalis dar nebaigta, todėl pažanga vertinama 50 %.",
+                         "fictional":  true,
+                         "evidence":  [
+                                          {
+                                              "title":  "Seimo kanceliarija: 2025 m. pavasario sesijos veiklos ataskaita",
+                                              "publishedAt":  "2026-07-10",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          },
+                                          {
+                                              "title":  "Vyriausybės kanceliarija: pažado įgyvendinimo stebėsenos suvestinė (iš dalies įvykdyta)",
+                                              "publishedAt":  "2026-10-08",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          }
+                                      ]
+                     },
+                     {
+                         "id":  "p23",
+                         "partyId":  "lvzs",
+                         "category":  "Regionai",
+                         "summary":  "Plėsti vietos bendruomenių erdves",
+                         "text":  "Atnaujinti šešias bendruomenių erdves ir jose sudaryti sąlygas nemokamoms veikloms.",
+                         "status":  {
+                                        "key":  "in-progress",
+                                        "label":  "Vykdoma",
+                                        "percent":  25
+                                    },
+                         "statusUpdatedAt":  "2026-10-07",
+                         "statusHistory":  [
+                                               {
+                                                   "percent":  0,
+                                                   "label":  "Pradėta",
+                                                   "daysBeforeUpdate":  60,
+                                                   "reachedAt":  "2026-08-08"
+                                               },
+                                               {
+                                                   "percent":  25,
+                                                   "label":  "Vykdoma",
+                                                   "daysBeforeUpdate":  40,
+                                                   "reachedAt":  "2026-08-28"
+                                               }
+                                           ],
+                         "explanation":  "Patvirtintas veiksmų planas ir pradėtas bandomasis etapas. Pažanga vertinama 25 %.",
+                         "fictional":  true,
+                         "evidence":  [
+                                          {
+                                              "title":  "Seimo kanceliarija: 2025 m. pavasario sesijos veiklos ataskaita",
+                                              "publishedAt":  "2026-07-09",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          },
+                                          {
+                                              "title":  "Vyriausybės kanceliarija: pažado įgyvendinimo stebėsenos suvestinė (vykdoma)",
+                                              "publishedAt":  "2026-10-07",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          }
+                                      ]
+                     },
+                     {
+                         "id":  "p24",
+                         "partyId":  "lvzs",
+                         "category":  "Energetika",
+                         "summary":  "Mažinti energijos nuostolius kaimo mokyklose",
+                         "text":  "Atlikti penkiolikos kaimo mokyklų energinį auditą ir pakeisti neefektyvų apšvietimą.",
+                         "status":  {
+                                        "key":  "not-fulfilled",
+                                        "label":  "Neįvykdyta",
+                                        "percent":  0
+                                    },
+                         "statusUpdatedAt":  "2026-10-06",
+                         "statusHistory":  [
+                                               {
+                                                   "percent":  0,
+                                                   "label":  "Neįvykdyta",
+                                                   "daysBeforeUpdate":  60,
+                                                   "reachedAt":  "2026-08-07"
+                                               }
+                                           ],
+                         "explanation":  "Numatytas laikotarpis baigėsi, tačiau priemonė nepradėta. Pažadas vertinamas kaip neįvykdytas.",
+                         "fictional":  true,
+                         "evidence":  [
+                                          {
+                                              "title":  "Seimo kanceliarija: 2025 m. pavasario sesijos veiklos ataskaita",
+                                              "publishedAt":  "2026-07-08",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          },
+                                          {
+                                              "title":  "Vyriausybės kanceliarija: pažado įgyvendinimo stebėsenos suvestinė (neįvykdyta)",
+                                              "publishedAt":  "2026-10-06",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          }
+                                      ]
+                     },
+                     {
+                         "id":  "p25",
+                         "partyId":  "llra-kss",
+                         "category":  "Švietimas",
+                         "summary":  "Kurti papildomas kalbų mokymosi priemones",
+                         "text":  "Parengti nemokamus papildomus lietuvių kalbos mokymosi modulius dešimčiai mokyklų.",
+                         "status":  {
+                                        "key":  "no-data",
+                                        "label":  "Nepakanka duomenų",
+                                        "percent":  0
+                                    },
+                         "statusUpdatedAt":  "2026-10-05",
+                         "statusHistory":  [
+                                               {
+                                                   "percent":  0,
+                                                   "label":  "Nepakanka duomenų",
+                                                   "daysBeforeUpdate":  60,
+                                                   "reachedAt":  "2026-08-06"
+                                               }
+                                           ],
+                         "explanation":  "Turimų duomenų nepakanka išvadai. 0 % žymi nežinomybę ir nėra pažado neįvykdymo įrodymas.",
+                         "fictional":  true,
+                         "evidence":  [
+                                          {
+                                              "title":  "Seimo kanceliarija: 2025 m. pavasario sesijos veiklos ataskaita",
+                                              "publishedAt":  "2026-07-07",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          },
+                                          {
+                                              "title":  "Vyriausybės kanceliarija: pažado įgyvendinimo stebėsenos suvestinė (nepakanka duomenų)",
+                                              "publishedAt":  "2026-10-05",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          }
+                                      ]
+                     },
+                     {
+                         "id":  "p26",
+                         "partyId":  "llra-kss",
+                         "category":  "Socialinė politika",
+                         "summary":  "Plėsti popamokinę vaikų priežiūrą",
+                         "text":  "Penkiose savivaldybėse išbandyti pailgintos dienos grupes su subsidijuojama vaikų priežiūra.",
+                         "status":  {
+                                        "key":  "fulfilled",
+                                        "label":  "Įvykdyta",
+                                        "percent":  100
+                                    },
+                         "statusUpdatedAt":  "2026-10-04",
+                         "statusHistory":  [
+                                               {
+                                                   "percent":  0,
+                                                   "label":  "Pradėta",
+                                                   "daysBeforeUpdate":  60,
+                                                   "reachedAt":  "2026-08-05"
+                                               },
+                                               {
+                                                   "percent":  25,
+                                                   "label":  "Vykdoma",
+                                                   "daysBeforeUpdate":  40,
+                                                   "reachedAt":  "2026-08-25"
+                                               },
+                                               {
+                                                   "percent":  50,
+                                                   "label":  "Iš dalies įvykdyta",
+                                                   "daysBeforeUpdate":  20,
+                                                   "reachedAt":  "2026-09-14"
+                                               },
+                                               {
+                                                   "percent":  100,
+                                                   "label":  "Įvykdyta",
+                                                   "daysBeforeUpdate":  0,
+                                                   "reachedAt":  "2026-10-04"
+                                               }
+                                           ],
+                         "explanation":  "Visos numatytos priemonės baigtos. Vertinimas apima pažado apimtį, o ne jo politinę naudą.",
+                         "fictional":  true,
+                         "evidence":  [
+                                          {
+                                              "title":  "Seimo kanceliarija: 2025 m. pavasario sesijos veiklos ataskaita",
+                                              "publishedAt":  "2026-07-06",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          },
+                                          {
+                                              "title":  "Vyriausybės kanceliarija: pažado įgyvendinimo stebėsenos suvestinė (įvykdyta)",
+                                              "publishedAt":  "2026-10-04",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          }
+                                      ]
+                     },
+                     {
+                         "id":  "p27",
+                         "partyId":  "llra-kss",
+                         "category":  "Transportas",
+                         "summary":  "Gerinti priemiesčių susisiekimą",
+                         "text":  "Pridėti po du darbo dienų autobusų reisus keturiuose bandomuosiuose priemiesčių maršrutuose.",
+                         "status":  {
+                                        "key":  "partially-fulfilled",
+                                        "label":  "Iš dalies įvykdyta",
+                                        "percent":  50
+                                    },
+                         "statusUpdatedAt":  "2026-10-03",
+                         "statusHistory":  [
+                                               {
+                                                   "percent":  0,
+                                                   "label":  "Pradėta",
+                                                   "daysBeforeUpdate":  60,
+                                                   "reachedAt":  "2026-08-04"
+                                               },
+                                               {
+                                                   "percent":  25,
+                                                   "label":  "Vykdoma",
+                                                   "daysBeforeUpdate":  40,
+                                                   "reachedAt":  "2026-08-24"
+                                               },
+                                               {
+                                                   "percent":  50,
+                                                   "label":  "Iš dalies įvykdyta",
+                                                   "daysBeforeUpdate":  20,
+                                                   "reachedAt":  "2026-09-13"
+                                               }
+                                           ],
+                         "explanation":  "Įgyvendinta pusė numatytos apimties. Likusi dalis dar nebaigta, todėl pažanga vertinama 50 %.",
+                         "fictional":  true,
+                         "evidence":  [
+                                          {
+                                              "title":  "Seimo kanceliarija: 2025 m. pavasario sesijos veiklos ataskaita",
+                                              "publishedAt":  "2026-07-05",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          },
+                                          {
+                                              "title":  "Vyriausybės kanceliarija: pažado įgyvendinimo stebėsenos suvestinė (iš dalies įvykdyta)",
+                                              "publishedAt":  "2026-10-03",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          }
+                                      ]
+                     },
+                     {
+                         "id":  "p28",
+                         "partyId":  "llra-kss",
+                         "category":  "Žmogaus teisės",
+                         "summary":  "Teikti informaciją lengvai suprantama kalba",
+                         "text":  "Parengti dešimt svarbiausių savivaldybės paslaugų aprašų lengvai suprantama kalba.",
+                         "status":  {
+                                        "key":  "in-progress",
+                                        "label":  "Vykdoma",
+                                        "percent":  25
+                                    },
+                         "statusUpdatedAt":  "2026-10-02",
+                         "statusHistory":  [
+                                               {
+                                                   "percent":  0,
+                                                   "label":  "Pradėta",
+                                                   "daysBeforeUpdate":  60,
+                                                   "reachedAt":  "2026-08-03"
+                                               },
+                                               {
+                                                   "percent":  25,
+                                                   "label":  "Vykdoma",
+                                                   "daysBeforeUpdate":  40,
+                                                   "reachedAt":  "2026-08-23"
+                                               }
+                                           ],
+                         "explanation":  "Patvirtintas veiksmų planas ir pradėtas bandomasis etapas. Pažanga vertinama 25 %.",
+                         "fictional":  true,
+                         "evidence":  [
+                                          {
+                                              "title":  "Seimo kanceliarija: 2025 m. pavasario sesijos veiklos ataskaita",
+                                              "publishedAt":  "2026-07-04",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          },
+                                          {
+                                              "title":  "Vyriausybės kanceliarija: pažado įgyvendinimo stebėsenos suvestinė (vykdoma)",
+                                              "publishedAt":  "2026-10-02",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          }
+                                      ]
+                     },
+                     {
+                         "id":  "p29",
+                         "partyId":  "nacionalinis-susivienijimas",
+                         "category":  "Krašto apsauga",
+                         "summary":  "Atnaujinti gyventojų perspėjimo priemones",
+                         "text":  "Penkiose savivaldybėse išbandyti papildomas perspėjimo priemones ir surengti viešą patikrinimą.",
+                         "status":  {
+                                        "key":  "not-fulfilled",
+                                        "label":  "Neįvykdyta",
+                                        "percent":  0
+                                    },
+                         "statusUpdatedAt":  "2026-10-01",
+                         "statusHistory":  [
+                                               {
+                                                   "percent":  0,
+                                                   "label":  "Neįvykdyta",
+                                                   "daysBeforeUpdate":  60,
+                                                   "reachedAt":  "2026-08-02"
+                                               }
+                                           ],
+                         "explanation":  "Numatytas laikotarpis baigėsi, tačiau priemonė nepradėta. Pažadas vertinamas kaip neįvykdytas.",
+                         "fictional":  true,
+                         "evidence":  [
+                                          {
+                                              "title":  "Seimo kanceliarija: 2025 m. pavasario sesijos veiklos ataskaita",
+                                              "publishedAt":  "2026-07-03",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          },
+                                          {
+                                              "title":  "Vyriausybės kanceliarija: pažado įgyvendinimo stebėsenos suvestinė (neįvykdyta)",
+                                              "publishedAt":  "2026-10-01",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          }
+                                      ]
+                     },
+                     {
+                         "id":  "p30",
+                         "partyId":  "nacionalinis-susivienijimas",
+                         "category":  "Viešasis valdymas",
+                         "summary":  "Padaryti viešąsias konsultacijas aiškesnes",
+                         "text":  "Parengti vienodą konsultacijų su gyventojais tvarką ir skelbti gautų pasiūlymų atsakymus.",
+                         "status":  {
+                                        "key":  "no-data",
+                                        "label":  "Nepakanka duomenų",
+                                        "percent":  0
+                                    },
+                         "statusUpdatedAt":  "2026-09-30",
+                         "statusHistory":  [
+                                               {
+                                                   "percent":  0,
+                                                   "label":  "Nepakanka duomenų",
+                                                   "daysBeforeUpdate":  60,
+                                                   "reachedAt":  "2026-08-01"
+                                               }
+                                           ],
+                         "explanation":  "Turimų duomenų nepakanka išvadai. 0 % žymi nežinomybę ir nėra pažado neįvykdymo įrodymas.",
+                         "fictional":  true,
+                         "evidence":  [
+                                          {
+                                              "title":  "Seimo kanceliarija: 2025 m. pavasario sesijos veiklos ataskaita",
+                                              "publishedAt":  "2026-07-02",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          },
+                                          {
+                                              "title":  "Vyriausybės kanceliarija: pažado įgyvendinimo stebėsenos suvestinė (nepakanka duomenų)",
+                                              "publishedAt":  "2026-09-30",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          }
+                                      ]
+                     },
+                     {
+                         "id":  "p31",
+                         "partyId":  "nacionalinis-susivienijimas",
+                         "category":  "Regionai",
+                         "summary":  "Skaitmeninti vietos kultūros paveldą",
+                         "text":  "Skaitmeninti trijų regioninių muziejų rinkinius ir paskelbti laisvai prieinamus jų aprašus.",
+                         "status":  {
+                                        "key":  "fulfilled",
+                                        "label":  "Įvykdyta",
+                                        "percent":  100
+                                    },
+                         "statusUpdatedAt":  "2026-10-29",
+                         "statusHistory":  [
+                                               {
+                                                   "percent":  0,
+                                                   "label":  "Pradėta",
+                                                   "daysBeforeUpdate":  60,
+                                                   "reachedAt":  "2026-08-30"
+                                               },
+                                               {
+                                                   "percent":  25,
+                                                   "label":  "Vykdoma",
+                                                   "daysBeforeUpdate":  40,
+                                                   "reachedAt":  "2026-09-19"
+                                               },
+                                               {
+                                                   "percent":  50,
+                                                   "label":  "Iš dalies įvykdyta",
+                                                   "daysBeforeUpdate":  20,
+                                                   "reachedAt":  "2026-10-09"
+                                               },
+                                               {
+                                                   "percent":  100,
+                                                   "label":  "Įvykdyta",
+                                                   "daysBeforeUpdate":  0,
+                                                   "reachedAt":  "2026-10-29"
+                                               }
+                                           ],
+                         "explanation":  "Visos numatytos priemonės baigtos. Vertinimas apima pažado apimtį, o ne jo politinę naudą.",
+                         "fictional":  true,
+                         "evidence":  [
+                                          {
+                                              "title":  "Seimo kanceliarija: 2025 m. pavasario sesijos veiklos ataskaita",
+                                              "publishedAt":  "2026-07-31",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          },
+                                          {
+                                              "title":  "Vyriausybės kanceliarija: pažado įgyvendinimo stebėsenos suvestinė (įvykdyta)",
+                                              "publishedAt":  "2026-10-29",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          }
+                                      ]
+                     },
+                     {
+                         "id":  "p32",
+                         "partyId":  "nacionalinis-susivienijimas",
+                         "category":  "Žemės ūkis",
+                         "summary":  "Plėsti vietinės produkcijos turgavietes",
+                         "text":  "Atnaujinti keturias turgavietes, įrengiant vietos ūkininkams skirtas prekybos vietas.",
+                         "status":  {
+                                        "key":  "partially-fulfilled",
+                                        "label":  "Iš dalies įvykdyta",
+                                        "percent":  50
+                                    },
+                         "statusUpdatedAt":  "2026-10-28",
+                         "statusHistory":  [
+                                               {
+                                                   "percent":  0,
+                                                   "label":  "Pradėta",
+                                                   "daysBeforeUpdate":  60,
+                                                   "reachedAt":  "2026-08-29"
+                                               },
+                                               {
+                                                   "percent":  25,
+                                                   "label":  "Vykdoma",
+                                                   "daysBeforeUpdate":  40,
+                                                   "reachedAt":  "2026-09-18"
+                                               },
+                                               {
+                                                   "percent":  50,
+                                                   "label":  "Iš dalies įvykdyta",
+                                                   "daysBeforeUpdate":  20,
+                                                   "reachedAt":  "2026-10-08"
+                                               }
+                                           ],
+                         "explanation":  "Įgyvendinta pusė numatytos apimties. Likusi dalis dar nebaigta, todėl pažanga vertinama 50 %.",
+                         "fictional":  true,
+                         "evidence":  [
+                                          {
+                                              "title":  "Seimo kanceliarija: 2025 m. pavasario sesijos veiklos ataskaita",
+                                              "publishedAt":  "2026-07-30",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          },
+                                          {
+                                              "title":  "Vyriausybės kanceliarija: pažado įgyvendinimo stebėsenos suvestinė (iš dalies įvykdyta)",
+                                              "publishedAt":  "2026-10-28",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          }
+                                      ]
+                     },
+                     {
+                         "id":  "p33",
+                         "partyId":  "laisve-ir-teisingumas",
+                         "category":  "Ekonomika",
+                         "summary":  "Kurti pameistrystės vietas jauniems žmonėms",
+                         "text":  "Finansuoti trisdešimt apmokamų pameistrystės vietų mažose regionų įmonėse.",
+                         "status":  {
+                                        "key":  "in-progress",
+                                        "label":  "Vykdoma",
+                                        "percent":  25
+                                    },
+                         "statusUpdatedAt":  "2026-10-27",
+                         "statusHistory":  [
+                                               {
+                                                   "percent":  0,
+                                                   "label":  "Pradėta",
+                                                   "daysBeforeUpdate":  60,
+                                                   "reachedAt":  "2026-08-28"
+                                               },
+                                               {
+                                                   "percent":  25,
+                                                   "label":  "Vykdoma",
+                                                   "daysBeforeUpdate":  40,
+                                                   "reachedAt":  "2026-09-17"
+                                               }
+                                           ],
+                         "explanation":  "Patvirtintas veiksmų planas ir pradėtas bandomasis etapas. Pažanga vertinama 25 %.",
+                         "fictional":  true,
+                         "evidence":  [
+                                          {
+                                              "title":  "Seimo kanceliarija: 2025 m. pavasario sesijos veiklos ataskaita",
+                                              "publishedAt":  "2026-07-29",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          },
+                                          {
+                                              "title":  "Vyriausybės kanceliarija: pažado įgyvendinimo stebėsenos suvestinė (vykdoma)",
+                                              "publishedAt":  "2026-10-27",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          }
+                                      ]
+                     },
+                     {
+                         "id":  "p34",
+                         "partyId":  "laisve-ir-teisingumas",
+                         "category":  "Sveikatos apsauga",
+                         "summary":  "Didinti prevencinių patikrų prieinamumą",
+                         "text":  "Penkiose įstaigose pradėti šeštadienines profilaktinių patikrų konsultacijas.",
+                         "status":  {
+                                        "key":  "not-fulfilled",
+                                        "label":  "Neįvykdyta",
+                                        "percent":  0
+                                    },
+                         "statusUpdatedAt":  "2026-10-26",
+                         "statusHistory":  [
+                                               {
+                                                   "percent":  0,
+                                                   "label":  "Neįvykdyta",
+                                                   "daysBeforeUpdate":  60,
+                                                   "reachedAt":  "2026-08-27"
+                                               }
+                                           ],
+                         "explanation":  "Numatytas laikotarpis baigėsi, tačiau priemonė nepradėta. Pažadas vertinamas kaip neįvykdytas.",
+                         "fictional":  true,
+                         "evidence":  [
+                                          {
+                                              "title":  "Seimo kanceliarija: 2025 m. pavasario sesijos veiklos ataskaita",
+                                              "publishedAt":  "2026-07-28",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          },
+                                          {
+                                              "title":  "Vyriausybės kanceliarija: pažado įgyvendinimo stebėsenos suvestinė (neįvykdyta)",
+                                              "publishedAt":  "2026-10-26",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          }
+                                      ]
+                     },
+                     {
+                         "id":  "p35",
+                         "partyId":  "laisve-ir-teisingumas",
+                         "category":  "Skaitmenizacija",
+                         "summary":  "Atverti miestų duomenis gyventojams",
+                         "text":  "Paskelbti dešimt anonimizuotų transporto ir viešųjų erdvių duomenų rinkinių atviru formatu.",
+                         "status":  {
+                                        "key":  "no-data",
+                                        "label":  "Nepakanka duomenų",
+                                        "percent":  0
+                                    },
+                         "statusUpdatedAt":  "2026-10-25",
+                         "statusHistory":  [
+                                               {
+                                                   "percent":  0,
+                                                   "label":  "Nepakanka duomenų",
+                                                   "daysBeforeUpdate":  60,
+                                                   "reachedAt":  "2026-08-26"
+                                               }
+                                           ],
+                         "explanation":  "Turimų duomenų nepakanka išvadai. 0 % žymi nežinomybę ir nėra pažado neįvykdymo įrodymas.",
+                         "fictional":  true,
+                         "evidence":  [
+                                          {
+                                              "title":  "Seimo kanceliarija: 2025 m. pavasario sesijos veiklos ataskaita",
+                                              "publishedAt":  "2026-07-27",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          },
+                                          {
+                                              "title":  "Vyriausybės kanceliarija: pažado įgyvendinimo stebėsenos suvestinė (nepakanka duomenų)",
+                                              "publishedAt":  "2026-10-25",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          }
+                                      ]
+                     },
+                     {
+                         "id":  "p36",
+                         "partyId":  "laisve-ir-teisingumas",
+                         "category":  "Aplinkosauga",
+                         "summary":  "Išbandyti daugkartinių pakuočių sistemą",
+                         "text":  "Trijose viešosiose įstaigose pradėti daugkartinių maisto pakuočių grąžinimo bandomąją programą.",
+                         "status":  {
+                                        "key":  "fulfilled",
+                                        "label":  "Įvykdyta",
+                                        "percent":  100
+                                    },
+                         "statusUpdatedAt":  "2026-10-24",
+                         "statusHistory":  [
+                                               {
+                                                   "percent":  0,
+                                                   "label":  "Pradėta",
+                                                   "daysBeforeUpdate":  60,
+                                                   "reachedAt":  "2026-08-25"
+                                               },
+                                               {
+                                                   "percent":  25,
+                                                   "label":  "Vykdoma",
+                                                   "daysBeforeUpdate":  40,
+                                                   "reachedAt":  "2026-09-14"
+                                               },
+                                               {
+                                                   "percent":  50,
+                                                   "label":  "Iš dalies įvykdyta",
+                                                   "daysBeforeUpdate":  20,
+                                                   "reachedAt":  "2026-10-04"
+                                               },
+                                               {
+                                                   "percent":  100,
+                                                   "label":  "Įvykdyta",
+                                                   "daysBeforeUpdate":  0,
+                                                   "reachedAt":  "2026-10-24"
+                                               }
+                                           ],
+                         "explanation":  "Visos numatytos priemonės baigtos. Vertinimas apima pažado apimtį, o ne jo politinę naudą.",
+                         "fictional":  true,
+                         "evidence":  [
+                                          {
+                                              "title":  "Seimo kanceliarija: 2025 m. pavasario sesijos veiklos ataskaita",
+                                              "publishedAt":  "2026-07-26",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          },
+                                          {
+                                              "title":  "Vyriausybės kanceliarija: pažado įgyvendinimo stebėsenos suvestinė (įvykdyta)",
+                                              "publishedAt":  "2026-10-24",
+                                              "url":  "https://github.com/maketheworldfeelaliveagain"
+                                          }
+                                      ]
+                     }
+                 ]
+}
