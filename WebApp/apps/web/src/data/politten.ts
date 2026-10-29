@@ -59,7 +59,7 @@ const explanations = [
 ];
 export const promises = examples.map(([category,summary,text],i) => ({
  id:`p${String(i+1).padStart(2,'0')}`,partyId:parties[Math.floor(i/4)].id,category,summary,
- text,status:statuses[i%5],explanation:explanations[i%5],fictional:true,
+ text,status:statuses[i%5],statusUpdatedAt:new Date(Date.UTC(2026,9,29-(i%30))).toISOString().slice(0,10),explanation:explanations[i%5],fictional:true,
  evidence:[`Programos veiksmų planas: bandomosios programos veiksmai ir numatyti terminai.`, `Stebėsenos pastaba: pažado būsena – ${statuses[i%5].label.toLowerCase()}.`],
 }));
 export const categories = [...new Set(promises.map(p=>p.category))].sort((a,b)=>a.localeCompare(b,'lt'));
