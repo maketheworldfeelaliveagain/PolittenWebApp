@@ -22,6 +22,9 @@ type Pages = {
   "/pazadai": {
     params: {};
   };
+  "/sekami-pazadai": {
+    params: {};
+  };
   "/pazadai/:promiseId": {
     params: {
       "promiseId": string;
@@ -54,7 +57,7 @@ type Pages = {
 type RouteFiles = {
   "root.tsx": {
     id: "root";
-    page: "/" | "/partijos/:partyId" | "/pazadai" | "/pazadai/:promiseId" | "/llms.txt" | "/*" | "/sitemap.xml" | "/robots.txt" | "/api/health" | "/api/*";
+    page: "/" | "/partijos/:partyId" | "/pazadai" | "/sekami-pazadai" | "/pazadai/:promiseId" | "/llms.txt" | "/*" | "/sitemap.xml" | "/robots.txt" | "/api/health" | "/api/*";
   };
   "routes/home.tsx": {
     id: "routes/home";
@@ -67,6 +70,10 @@ type RouteFiles = {
   "routes/promises.tsx": {
     id: "routes/promises";
     page: "/pazadai";
+  };
+  "routes/followed-promises.tsx": {
+    id: "routes/followed-promises";
+    page: "/sekami-pazadai";
   };
   "routes/promise.tsx": {
     id: "routes/promise";
@@ -103,6 +110,7 @@ type RouteModules = {
   "routes/home": typeof import("./src/routes/home.tsx");
   "routes/party": typeof import("./src/routes/party.tsx");
   "routes/promises": typeof import("./src/routes/promises.tsx");
+  "routes/followed-promises": typeof import("./src/routes/followed-promises.tsx");
   "routes/promise": typeof import("./src/routes/promise.tsx");
   "routes/llms.txt": typeof import("./src/routes/llms.txt.ts");
   "routes/not-found": typeof import("./src/routes/not-found.tsx");

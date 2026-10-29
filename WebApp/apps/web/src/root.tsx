@@ -76,8 +76,10 @@ export function Layout({ children }: { children: React.ReactNode }) {
 	);
 }
 
+import { FollowedPromisesProvider } from '@/hooks/use-followed-promises';
+
 export default function App() {
-	return <><SiteHeader/><Outlet/><SiteFooter/><CookieBanner/></>;
+	return <FollowedPromisesProvider><SiteHeader/><Outlet/><SiteFooter/><CookieBanner/></FollowedPromisesProvider>;
 }
 
 export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {

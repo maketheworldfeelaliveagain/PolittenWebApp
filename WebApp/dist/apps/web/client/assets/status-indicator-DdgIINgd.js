@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-B3JqzSDr.js";var t=e();function n({status:e}){return(0,t.jsxs)(`div`,{className:`status-indicator status-${e.percent}`,children:[(0,t.jsx)(`span`,{className:`status-dot`}),(0,t.jsx)(`span`,{children:e.label}),(0,t.jsxs)(`b`,{children:[e.percent,`%`]})]})}export{n as t};

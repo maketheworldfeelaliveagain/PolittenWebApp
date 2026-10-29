@@ -4,6 +4,7 @@ export default [
 	index('routes/home.tsx'),
  route('partijos/:partyId', 'routes/party.tsx'),
  route('pazadai', 'routes/promises.tsx'),
+ route('sekami-pazadai', 'routes/followed-promises.tsx'),
  route('pazadai/:promiseId', 'routes/promise.tsx'),
  route('llms.txt', 'routes/llms.txt.ts'),
  route('*', 'routes/not-found.tsx'),
