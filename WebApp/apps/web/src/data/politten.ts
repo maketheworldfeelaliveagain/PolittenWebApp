@@ -61,8 +61,8 @@ export const promises = examples.map(([category,summary,text],i) => ({
  id:`p${String(i+1).padStart(2,'0')}`,partyId:parties[Math.floor(i/4)].id,category,summary,
  text,status:statuses[i%5],statusUpdatedAt:new Date(Date.UTC(2026,9,29-(i%30))).toISOString().slice(0,10),explanation:explanations[i%5],fictional:true,
  evidence:[
-  {title:'Programos veiksmų planas: bandomosios programos veiksmai ir numatyti terminai.',publishedAt:new Date(Date.UTC(2026,9,29-(i%30)-90)).toISOString().slice(0,10)},
-  {title:`Stebėsenos pastaba: pažado būsena – ${statuses[i%5].label.toLowerCase()}.`,publishedAt:new Date(Date.UTC(2026,9,29-(i%30))).toISOString().slice(0,10)},
+  {title:'Seimo kanceliarija: 2025 m. pavasario sesijos veiklos ataskaita',publishedAt:new Date(Date.UTC(2026,9,29-(i%30)-90)).toISOString().slice(0,10),url:'https://github.com/maketheworldfeelaliveagain'},
+  {title:`Vyriausybės kanceliarija: pažado įgyvendinimo stebėsenos suvestinė (${statuses[i%5].label.toLowerCase()})`,publishedAt:new Date(Date.UTC(2026,9,29-(i%30))).toISOString().slice(0,10),url:'https://github.com/maketheworldfeelaliveagain'},
  ],
 }));
 export const categories = [...new Set(promises.map(p=>p.category))].sort((a,b)=>a.localeCompare(b,'lt'));
