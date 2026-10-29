@@ -1,0 +1,2 @@
+import { openCookiePreferences } from '@/lib/cookie-consent';
+export function SiteFooter(){return <footer className="site-footer"><div><a href="/" className="footer-brand">politten.</a><p>Pažadai. Kontekstas. Aiškumas.</p></div><div><button onClick={openCookiePreferences}>Slapukų nustatymai</button><p>© 2026 Politten</p></div></footer>;}

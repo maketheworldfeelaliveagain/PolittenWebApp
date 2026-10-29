@@ -1,0 +1,2 @@
+import type { PromiseItem } from '@/data/politten';
+export function StatusIndicator({status}:{status:PromiseItem['status']}){return <div className={`status-indicator status-${status.percent}`}><span className="status-dot"/><span>{status.label}</span><b>{status.percent}%</b></div>;}

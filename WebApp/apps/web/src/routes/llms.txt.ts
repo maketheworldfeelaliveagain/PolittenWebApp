@@ -1,0 +1,4 @@
+import type { Route } from './+types/llms.txt';
+import { siteOrigin } from '@/lib/site-origin.server';
+import { parties,promises } from '@/data/politten';
+export function loader({request}:Route.LoaderArgs){const origin=siteOrigin(request);return new Response(`# Politten\n\n> Politinių pažadų katalogas su įgyvendinimo būsenomis, procentais, paaiškinimais ir vertinimo medžiaga.\n\n## Puslapiai\n- [Visi pažadai](${origin}/pazadai)\n${parties.map(p=>`- [${p.name}](${origin}/partijos/${p.id}): 4 pažadai.`).join('\n')}\n${promises.map(p=>`- [${p.summary}](${origin}/pazadai/${p.id})`).join('\n')}`,{headers:{'Content-Type':'text/plain; charset=utf-8'}});}

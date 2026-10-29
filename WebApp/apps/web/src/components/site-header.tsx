@@ -1,0 +1,3 @@
+import { NavLink, Link } from 'react-router';
+import { ArrowUpRight } from 'lucide-react';
+export function SiteHeader(){return <><header className="site-header"><Link to="/" className="wordmark" aria-label="Politten pradžia">politten<span>.</span></Link><nav aria-label="Pagrindinė navigacija"><a href="/#partijos">Partijos</a><NavLink to="/pazadai">Visi pažadai <ArrowUpRight size={15}/></NavLink></nav></header><div className="demo-strip"><span className="signal-dot"/> Išgalvotų duomenų demonstracija <span className="strip-extra">Ne faktinis politinių partijų vertinimas</span></div></>;}

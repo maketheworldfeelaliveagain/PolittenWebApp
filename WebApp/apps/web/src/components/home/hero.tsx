@@ -1,0 +1,3 @@
+import { Link } from 'react-router';
+import { ArrowRight, ArrowDown } from 'lucide-react';
+export function Hero(){return <section className="hero"><div className="eyebrow"><span className="short-line"/> POLITIKA BE INFORMACINIO TRIUKŠMO</div><h1>Pažadai turi<br/><span>atmintį.</span></h1><p className="hero-copy">Politten padeda aiškiai ir vienoje vietoje sekti politinių partijų pažadus, jų įgyvendinimo būseną ir vertinimo pagrindimą.</p><Link className="primary-button" to="/pazadai">Peržiūrėti visus pažadus <ArrowRight size={19}/></Link><div className="hero-bottom"><span>Pažadai. Kontekstas. Aiškumas.</span><a href="#partijos" aria-label="Pereiti prie partijų"><ArrowDown size={20}/></a><span>9 partijos · 36 pažadai</span></div></section>;}

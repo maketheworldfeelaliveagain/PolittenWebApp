@@ -1,0 +1,5 @@
+import { Link } from 'react-router';
+import { ArrowUpRight } from 'lucide-react';
+import { parties, type PromiseItem } from '@/data/politten';
+import { StatusIndicator } from '@/components/status-indicator';
+export function PromiseList({items}:{items:PromiseItem[]}){return <div className="promise-list"><div className="list-labels"><span>PAŽADAS / PARTIJA</span><span>SRITIS</span><span>DEMONSTRACINĖ BŪSENA</span></div>{items.length===0?<p className="empty-state">Pažadų pagal pasirinktus filtrus nerasta. Pabandykite kitus kriterijus.</p>:items.map(p=><Link className="promise-row" to={`/pazadai/${p.id}`} key={p.id}><div><span className="fiction-label">PAŽADAS · {p.id.toUpperCase()}</span><h2>{p.summary}</h2><p>{parties.find(x=>x.id===p.partyId)?.name}</p></div><span className="category-label">{p.category}</span><div><StatusIndicator status={p.status}/><span className="row-arrow"><ArrowUpRight size={19}/></span></div></Link>)}</div>;}

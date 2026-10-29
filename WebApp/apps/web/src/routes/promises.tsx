@@ -1,0 +1,5 @@
+import type { Route } from './+types/promises';
+import { seo } from '@/lib/seo';
+import { PromiseExplorer } from '@/components/promises/promise-explorer';
+export function meta({matches,location}:Route.MetaArgs){return seo({matches,location},{title:'Visi pažadai – Politten',description:'Naršykite 36 pažadus pagal partiją, sritį ir būseną. Peržiūrėkite įgyvendinimo pažangą ir vertinimo pagrindimą.',image:'/social.svg',jsonLd:{'@context':'https://schema.org','@type':'CollectionPage',name:'Pažadų rinkinys'}});}
+export default function PromisesPage(){return <main className="page-shell"><div className="page-intro"><p className="eyebrow">PAŽADŲ ŽEMĖLAPIS</p><h1>Visi pažadai.</h1><p>36 pažadai. 9 partijos. Viena vieta suprasti kontekstą.<br/>Peržiūrėkite būsenas ir vertinimus.</p></div><PromiseExplorer/></main>;}
